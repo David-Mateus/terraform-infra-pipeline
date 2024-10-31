@@ -16,6 +16,6 @@ jobs:
     with:
       environment: dev
       aws-assume-role-arn: "arn:aws:iam::651076985891:role/github-actions-David-Mateus-pipeline"
-      aws-region: "sa-east-1"
+      aws-region: "us-east-1"
       aws-statefile-s3-bucket: "david-mateus-sa-east-1-terraform-statefile"
       aws-lock-dynamodb-table: "david-mateus-sa-east-1-terraform-lock"
